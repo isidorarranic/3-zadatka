@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Foto galerija</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Фото галерија</h1>
+
+	<div id="meni">
+		<a href="index.html" class="levo">Почетна</a>
+		<a href="o_autoru.html" class="levo">О аутору</a>
+		<a href="uputstvo.html" class="levo">Упутство</a>
+		<a id="desno">Завршни испит</a>
+	</div>
+
+	<div id="galerija">
+		<p id="tekst">Најстарије помињање листе светских чуда потиче од историчара Херодота (око 450. п. н. е.). Први пут свих седам чуда су заједно поменута у епиграму феничанског писца Антипатроса из Сидона (2. век п. н. е.), који је описао путопис по источном Медитерану свога времена. Грци су овај списак назвали: Τὰ ἑπτὰ θεάματα τῆς οἰκουμένης [γῆς] – „Седам атракција насељене Земље које треба обавезно видети“. Седам чуда је вероватно одабрано зато што је овај број за старе Грке имао симболику магичног броја. Опис седам светских чуда се налази у трактату из 6. века нове ере „О седам светских чуда“ (De septem mundi miraculis).</p>
+		<img src="images/karta.jpg" id="velika">
+		<img src="images/karta.jpg" class="mala" onclick="prikaz(1)">
+		<img src="images/zevs.jpg" class="mala" onclick="prikaz(2)">
+		<img src="images/artemida.jpg" class="mala" onclick="prikaz(3)">
+		<img src="images/mauzolej.jpg" class="mala" onclick="prikaz(4)">
+		<img src="images/kolos.jpg" class="mala" onclick="prikaz(5)">
+		<img src="images/svetionik.jpg" class="mala" onclick="prikaz(6)">
+		<img src="images/piramide.jpg" class="mala" onclick="prikaz(7)">
+		<img src="images/vavilon.jpg" class="mala" onclick="prikaz(8)">
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

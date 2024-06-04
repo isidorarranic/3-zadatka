@@ -1,0 +1,72 @@
+body{
+	background-image: url('images/farma.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	color: #F1F081;
+	text-shadow: 2px 2px 5px black;
+}
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #F1F081;
+}
+div{
+	text-align: center;
+}
+
+ #galerija{
+ 	margin-top: 2%;
+ }
+ #meni a{
+ 	background-color: #F1F081;
+ 	display: inline-block;
+ }
+ #meni a{
+ 	text-decoration: none;
+ 	font-size: 18px;
+ 	
+ }
+ #meni a{
+ 	color: #560908;
+ 	background-color: #F1F081;
+ 	padding: 1% 4% 1% 4%;
+ 	font-size: 18px;
+ }
+#meni a:active{
+ 	background-color: #560908;
+ 	color: #F1F081;
+}
+
+.border{
+	border-right: solid 1px #560908;
+}
+
+ #dole{
+ 	position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: #560908;
+    width: 100%;
+    color: #F1F081;
+    font-size: 20px;
+    padding: 2%;
+ }
+
+#prozor{
+	text-align: center;
+	background-image: none;
+}
+#prozor p{
+	overflow: auto;
+}
+#prozor h1{
+	color: #560908;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px black;
+}

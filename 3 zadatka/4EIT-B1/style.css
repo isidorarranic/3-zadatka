@@ -1,0 +1,61 @@
+body{
+	background-color: #AFD1FC;
+	margin: 0;
+}
+h1{
+	color: #1C57A4;
+	margin-left: 1%;
+}
+#tekst{
+	background-color: #1C57A4;
+	color: white;
+	height: 120px;
+	width: 640px;
+	margin: 0 0 1% 0;
+	padding: 0;
+	overflow: auto;
+}
+#galerija{
+	height: 640px;
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+}
+#meni{
+	background-color: #1C57A4;
+	width: 100%;
+	padding: 1% 0 1% 0;
+}
+
+#velika{
+	height: 480px;
+	width: 640px;
+}
+.mala{
+	height: 40px;
+	width: 76px;
+}
+img{
+	padding: 0;
+	margin: 0;
+}
+a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding: 1% 0 1% 1%;
+}
+.levo:active{
+	background-color: #7FAADF;
+	color: #1C57A4;
+}
+.levo{
+	border-right: solid 1px white;
+	padding-right: 1%;
+}
+#desno{
+	float: right;
+	padding: 0;
+	margin-right: 1%;
+}

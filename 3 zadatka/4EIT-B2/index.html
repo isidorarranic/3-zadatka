@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Domace ziv</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Домаће животиње</h1>
+
+	<div id="meni">
+		<a href="index.html" class="border">Почетна</a>
+		<a href="o_autoru.html" class="border">О аутору</a>
+		<a href="uputstvo.html">Упутство</a>
+	</div>
+
+	<div id="galerija">
+
+		<a href="info/kuca.html" target="_blank" onClick="window.open('info/kuca.html','Kuca','resizable,height=250,width=300'); return false;">
+		<img src="images/kuca.jpg" id="slika1" onmouseover="pusti(id)" onmouseout="stani(id)">
+		<audio src="sounds/kuca.mp3" id="zvuk1"></audio>
+		</a>
+
+		<a href="info/patkica.html" target="_blank" onClick="window.open('info/patkica.html','Patkica','resizable,height=250,width=300'); return false;">
+		<img src="images/patkica.jpg" id="slika2" onmouseover="pusti(id)" onmouseout="stani(id)">
+		<audio src="sounds/patkica.mp3" id="zvuk2"></audio>
+		</a>
+
+		<a href="info/maca.html" target="_blank" onClick="window.open('info/maca.html','Maca','resizable,height=250,width=300'); return false;">
+		<img src="images/maca.jpg" id="slika3" onmouseover="pusti(id)" onmouseout="stani(id)">
+		<audio src="sounds/maca.mp3" id="zvuk3"></audio>
+		</a>
+
+		<a href="info/pile.html" target="_blank" onClick="window.open('info/pile.html','Pile','resizable,height=250,width=300'); return false;">
+		<img src="images/pile.jpg" id="slika4" onmouseover="pusti(id)" onmouseout="stani(id)">
+		<audio src="sounds/pile.mp3" id="zvuk4"></audio>
+		</a>
+
+		<a href="info/krava.html" target="_blank" onClick="window.open('info/krava.html','Krava','resizable,height=250,width=300'); return false;">
+		<img src="images/krava.jpg" id="slika5" onmouseover="pusti(id)" onmouseout="stani(id)">
+		<audio src="sounds/krava.mp3" id="zvuk5"></audio>
+		</a>
+
+	</div>
+
+	<div id="dole">Copyright © Предшколска Установа "Срећно дете"</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
